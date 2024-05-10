@@ -3,7 +3,7 @@ use ieee.std_logic_1164.all;
 use ieee.math_real.all;
 use IEEE.numeric_std.all;
 
-entity RAM is
+entity RAM2 is
 	generic (
 		WIDTH  : integer := 32;
 		LENGTH : integer := 16
@@ -23,28 +23,28 @@ entity RAM is
 	);
 end entity;
 
-architecture behavioral of RAM is
+architecture behavioral of RAM2 is
 
 	type ram_array is array (0 to 2 ** LENGTH) of std_logic_vector(WIDTH - 1 downto 0);
 	signal ram_data : ram_array := (others => (others => '0'));
 	signal temp     : integer   := 0;
 
 begin
-	RAMInst : process (clk)
+	RAM2Inst : process (clk)
 	begin
 		if rising_edge(clk) then
 			if rst = '1' then
 				ram_data <= (others => (others => '0'));
 				rdRdy    <= '0';
 			else
+				do <= '0';
+				if temp = 2 then
+					do   <= '1';
+					temp <= 0;
+				end if;
 				if wrEn = '1' then
 					ram_data(to_integer(unsigned(wrAddress))) <= wrData;
-					if temp = 2 then
-						do   <= '1';
-						temp <= 0;
-					else
-						temp <= temp + 1;
-					end if;
+					temp                                      <= temp + 1;
 				end if;
 				if rdEn = '1' then
 					rdRdy <= '1';
@@ -53,6 +53,6 @@ begin
 				end if;
 			end if;
 		end if;
-	end process; -- RAMInst
+	end process; -- RAM2Inst
 	rdData <= ram_data(to_integer(unsigned(rdAddress)));
 end architecture;

@@ -10,10 +10,10 @@ z2
 cModel Technology
 Z0 dC:/FPGA/HW03/Sim
 T_opt
-Z1 !s110 1715359574
-V>RGfUeKOMGX?e3HAEzCTE0
-04 9 10 work module_tb behavioral 1
-=1-088fc3de0d10-663e4f56-2cb-2bdc
+Z1 !s110 1715365608
+VOGGP1Ki>0f`R@_8_4QI]61
+04 7 10 work ram2_tb behavioral 1
+=1-088fc3de0d10-663e66e8-2ce-19e8
 o-quiet -auto_acc_if_foreign -work work +acc
 tCvgOpt 0
 n@_opt
@@ -25,7 +25,7 @@ Z4 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 Z5 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z7 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 1
+!i122 0
 R0
 Z8 8../Source/Adder.vhd
 Z9 F../Source/Adder.vhd
@@ -37,9 +37,9 @@ Z10 OL;C;2020.4;71
 33
 R1
 !i10b 1
-Z11 !s108 1715359574.000000
-Z12 !s90 -reportprogress|300|-2008|../Source/Adder.vhd|
-Z13 !s107 ../Source/Adder.vhd|
+Z11 !s108 1715365608.000000
+Z12 !s90 -reportprogress|300|-2008|../Source/Adder.vhd|../Source/Module.vhd|../Source/RAM.vhd|../Source/RAM2.vhd|
+Z13 !s107 ../Source/RAM2.vhd|../Source/RAM.vhd|../Source/Module.vhd|../Source/Adder.vhd|
 !i113 0
 Z14 o-2008
 Z15 tExplicit 1 CvgOpt 0
@@ -50,7 +50,7 @@ R5
 R6
 R7
 DEx4 work 5 adder 0 22 alE=@96Z6MlBA`ClzgnG>0
-!i122 1
+!i122 0
 l24
 L20 17
 V1clWNnFHZQ?zDGWYk[Y=m2
@@ -86,8 +86,8 @@ R10
 R1
 !i10b 1
 R11
-Z20 !s90 -reportprogress|300|-2008|../Source/Module.vhd|
-Z21 !s107 ../Source/Module.vhd|
+R12
+R13
 !i113 0
 R14
 R15
@@ -109,31 +109,121 @@ R10
 R1
 !i10b 1
 R11
-R20
-R21
+R12
+R13
 !i113 0
 R14
 R15
-Emodule_tb
-Z22 w1715357725
+Eram
+Z20 w1715184188
 R5
+R17
 R6
 R7
-!i122 2
+!i122 0
 R0
-Z23 8../Test/Module_tb.vhd
-Z24 F../Test/Module_tb.vhd
+Z21 8../Source/RAM.vhd
+Z22 F../Source/RAM.vhd
 l0
-L5 1
-V9^Q7FTffdkJCDTA_S3dPS0
-!s100 W18e=@I`TC6:3ee4<hNVz2
+L6 1
+VM9H?=zUAPL`7zN?0RoeW@1
+!s100 GTL;f>z;4<KLj@AJW3=mm2
 R10
 33
 R1
 !i10b 1
 R11
-Z25 !s90 -reportprogress|300|-2008|../Test/Module_tb.vhd|
-Z26 !s107 ../Test/Module_tb.vhd|
+R12
+R13
+!i113 0
+R14
+R15
+Abehavioral
+R5
+R17
+R6
+R7
+DEx4 work 3 ram 0 22 M9H?=zUAPL`7zN?0RoeW@1
+!i122 0
+l30
+L25 26
+VmD?2e=[Z=?P??U`VIToed3
+!s100 fl8f^]kfkMKW=PZ09D=4a3
+R10
+33
+R1
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Eram2
+Z23 w1715365599
+R5
+R17
+R6
+R7
+!i122 0
+R0
+Z24 8../Source/RAM2.vhd
+Z25 F../Source/RAM2.vhd
+l0
+L6 1
+V>A1K?bS4aUYm_5J;N2F5;3
+!s100 HzmE^=E7QNDhKTb2GFGZK3
+R10
+33
+R1
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Abehavioral
+R5
+R17
+R6
+R7
+DEx4 work 4 ram2 0 22 >A1K?bS4aUYm_5J;N2F5;3
+!i122 0
+l32
+L26 33
+VE5@iY9ZlMPbSRHF5U:zW82
+!s100 QO3D5AM:lk>b0YNN4DW4^3
+R10
+33
+R1
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Eram2_tb
+Z26 w1715365354
+R5
+R6
+R7
+!i122 1
+R0
+Z27 8../Test/RAM2_tb.vhd
+Z28 F../Test/RAM2_tb.vhd
+l0
+L5 1
+V=zFcZHl^`Uk58MVYl>:Cj1
+!s100 >1:PENhf=fKcnF:k@Dh5[2
+R10
+33
+R1
+!i10b 1
+R11
+Z29 !s90 -reportprogress|300|-2008|../Test/RAM2_tb.vhd|
+Z30 !s107 ../Test/RAM2_tb.vhd|
 !i113 0
 R14
 R15
@@ -141,19 +231,19 @@ Abehavioral
 R5
 R6
 R7
-DEx4 work 9 module_tb 0 22 9^Q7FTffdkJCDTA_S3dPS0
-!i122 2
-l39
-L8 80
-V3=[Hm;DYnO>LfG]3ajI5Y1
-!s100 XH?=QB@hD]PSlk=b?FO_>1
+DEx4 work 7 ram2_tb 0 22 =zFcZHl^`Uk58MVYl>:Cj1
+!i122 1
+l44
+L8 103
+Vzc`n_j_DRDBI>8@[o9nf62
+!s100 Bc:1[Nz6JV<FA3z7KNUnR0
 R10
 33
 R1
 !i10b 1
 R11
-R25
-R26
+R29
+R30
 !i113 0
 R14
 R15
