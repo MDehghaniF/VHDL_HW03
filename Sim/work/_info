@@ -1,0 +1,159 @@
+m255
+K4
+z2
+!s11e vcom 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/FPGA/HW03/Sim
+T_opt
+Z1 !s110 1715359574
+V>RGfUeKOMGX?e3HAEzCTE0
+04 9 10 work module_tb behavioral 1
+=1-088fc3de0d10-663e4f56-2cb-2bdc
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+Eadder
+Z2 w1715359385
+Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z4 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z5 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 1
+R0
+Z8 8../Source/Adder.vhd
+Z9 F../Source/Adder.vhd
+l0
+L6 1
+ValE=@96Z6MlBA`ClzgnG>0
+!s100 K:j1<iVZ?8A>ZWGe4[J2o2
+Z10 OL;C;2020.4;71
+33
+R1
+!i10b 1
+Z11 !s108 1715359574.000000
+Z12 !s90 -reportprogress|300|-2008|../Source/Adder.vhd|
+Z13 !s107 ../Source/Adder.vhd|
+!i113 0
+Z14 o-2008
+Z15 tExplicit 1 CvgOpt 0
+Abehavioral
+R3
+R4
+R5
+R6
+R7
+DEx4 work 5 adder 0 22 alE=@96Z6MlBA`ClzgnG>0
+!i122 1
+l24
+L20 17
+V1clWNnFHZQ?zDGWYk[Y=m2
+!s100 GXk:jL6lkgZPI45B76eTU2
+R10
+33
+R1
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Emodule
+Z16 w1715359570
+R3
+R4
+R5
+Z17 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+R6
+R7
+!i122 0
+R0
+Z18 8../Source/Module.vhd
+Z19 F../Source/Module.vhd
+l0
+L7 1
+VSaeDJ:_LkaJlf<efbKF<g2
+!s100 QIYKk=<1J_iEXYXQHd64B1
+R10
+33
+R1
+!i10b 1
+R11
+Z20 !s90 -reportprogress|300|-2008|../Source/Module.vhd|
+Z21 !s107 ../Source/Module.vhd|
+!i113 0
+R14
+R15
+Abehavioral
+R3
+R4
+R5
+R17
+R6
+R7
+DEx4 work 6 module 0 22 SaeDJ:_LkaJlf<efbKF<g2
+!i122 0
+l45
+L24 104
+VSfO4:_1eVkJJ;JoWIY0_W0
+!s100 ZE:;^_kGG@6`DEh_3niPX0
+R10
+33
+R1
+!i10b 1
+R11
+R20
+R21
+!i113 0
+R14
+R15
+Emodule_tb
+Z22 w1715357725
+R5
+R6
+R7
+!i122 2
+R0
+Z23 8../Test/Module_tb.vhd
+Z24 F../Test/Module_tb.vhd
+l0
+L5 1
+V9^Q7FTffdkJCDTA_S3dPS0
+!s100 W18e=@I`TC6:3ee4<hNVz2
+R10
+33
+R1
+!i10b 1
+R11
+Z25 !s90 -reportprogress|300|-2008|../Test/Module_tb.vhd|
+Z26 !s107 ../Test/Module_tb.vhd|
+!i113 0
+R14
+R15
+Abehavioral
+R5
+R6
+R7
+DEx4 work 9 module_tb 0 22 9^Q7FTffdkJCDTA_S3dPS0
+!i122 2
+l39
+L8 80
+V3=[Hm;DYnO>LfG]3ajI5Y1
+!s100 XH?=QB@hD]PSlk=b?FO_>1
+R10
+33
+R1
+!i10b 1
+R11
+R25
+R26
+!i113 0
+R14
+R15
